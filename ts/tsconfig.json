@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5"
+    },
+    "files": [ 
+        "typings/babylon.d.ts",
+        "Game.ts",
+        "Tile.ts",
+        "Preloader.ts",
+        "Timer.ts"
+    ]
+}

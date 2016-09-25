@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starter</title>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <!--Babylon-->
+    <script src="js/libs/babylon.max.js"></script>
+
+    <script src="js/Game.js"></script>
+    <script src="js/Preloader.js"></script>
+    <script src="js/Tile.js"></script>
+    <script src="js/Timer.js"></script>
+    <script src="http://livejs.com/live.js"></script>
+    
+    <!--Css-->
+    <link rel='stylesheet' href='css/main.css'/>
+
+</head>
+<body>
+
+    <div class="loader" id="loader">
+        LOADING...
+    </div>
+        
+    <!--The game canvas-->
+    <canvas id="game-canvas"></canvas>
+
+    <!--Starting the game-->
+    <script>
+        window.addEventListener("DOMContentLoaded", function(){
+            new Game('game-canvas');
+        });
+    </script>
+
+</body>
+</html>
